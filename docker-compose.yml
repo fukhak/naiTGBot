@@ -1,0 +1,13 @@
+version: '3'
+services:
+  naitgbot:
+    container_name: naiTGBot
+    build: .
+    network_mode: bridge
+    restart: always
+    environment:
+      - TOKEN=
+      - NAIKEY=
+      - POINTLOCK=false
+    # env_file:
+    #   - ./.env

@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "naihelper.js": "github:fukhak/naiHelper.js",
+    "node-telegram-bot-api": "^0.59.0",
+    "typescript": "next"
+  },
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.57.6"
+  }
+}
